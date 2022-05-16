@@ -3,9 +3,8 @@ import React from "react";
 const InnerServices = (props) => {
   const { icon, body, title } = props.items;
   return (
-    <div>
+    <div className="bg-[url('/assets/pic1.jpg')]">
       <h1>{title}</h1>
-      <img src="/assets/alora-griffiths-TuzrzArccvc-unsplash.jpg" layout="fill" alt='{icon}'></img>
     </div>
   ); 
 };
