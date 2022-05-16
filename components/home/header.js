@@ -3,16 +3,16 @@ const Header = () => {
   // w-4/5 mx-5 my-3 absolute top-0 left-0 text-white md:mt-20 lg:mt-36
   return (
     <>
-      <div className=" ">
+      <div className="relative ">
         <video
           muted
           autoPlay={"autoplay"}
           preload="auto"
           loop
           src={"/assets/gym-cinematic-2.mp4"}
-          className="w-screen h-full relative"
+          className="w-screen h-full "
         />
-        <div className="w-4/5 mx-5 my-3 absolute top-0 left-0 text-white md:mt-20 lg:mt-36  m-auto ">
+        <div className="  top-0 lg:left-52 absolute  text-white  ">
           <h1 className="text-xl  font-extrabold md:text-5xl lg:text-7xl">
             THE BEST FITNESS <br /> STUDIO IN TOWN
           </h1>
