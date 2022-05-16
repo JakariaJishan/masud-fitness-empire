@@ -1,7 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-* {
-  margin: 0;
-  padding: 0;
+
+@layer components {
+  @media only screen and (max-width: 1024px) {
+    .btn {
+      background-color: #fcd842;
+      color: black;
+      font-weight: bold;
+      /* font-size: px; */
+      padding: 3px 10px;
+    }
+  }
+  @media only screen and (min-width: 1024px) {
+    .btn {
+      background-color: #fcd842;
+      color: black;
+      font-weight: bold;
+      font-size: 25px;
+      padding: 5px 30px;
+    }
+  }
 }
