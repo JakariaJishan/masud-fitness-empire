@@ -12,7 +12,7 @@ const Header = () => {
           src={"/assets/gym-cinematic-2.mp4"}
           className="w-screen h-full relative"
         />
-        <div className="absolute top-1/2 left-0 bottom-0">
+        <div className="w-4/5 mx-5 my-3 absolute top-0 left-0 text-white md:mt-20 lg:mt-36  m-auto ">
           <h1 className="text-xl  font-extrabold md:text-5xl lg:text-7xl">
             THE BEST FITNESS <br /> STUDIO IN TOWN
           </h1>
