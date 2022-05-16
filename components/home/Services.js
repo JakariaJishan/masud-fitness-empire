@@ -1,10 +1,10 @@
 import {
-    faBottleWater,
-    faDumbbell,
-    faSwatchbook
+  faBottleWater,
+  faDumbbell,
+  faSwatchbook
 } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
+import InnerServices from "./InnerServices";
 
 const Services = () => {
   const demoObj = [
@@ -25,20 +25,8 @@ const Services = () => {
     },
   ];
   return (
-    <div className="grid grid-cols-3 gap-5 text-center w-3/4 m-auto text-white">
-      {demoObj.map((items) => {
-        return (
-          <div
-            key={items.title}
-            className=""
-            styles={{ backgroundImage: "url('../assets/powerx-1.png')" }}
-          >
-            <FontAwesomeIcon className="text-4xl" icon={items.icon} />
-            <h1 className="text-3xl font-bold mt-10 mb-3">{items.title}</h1>
-            <p>{items.body}</p>
-          </div>
-        );
-      })}
+    <div className="grid grid-cols-3 gap-5 text-center w-3/4 m-auto ">
+      {demoObj.map((items) => <InnerServices key={items.title} items={items}/>)}
     </div>
   );
 };

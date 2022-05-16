@@ -1,14 +1,10 @@
 import React from "react";
-import img from '../assets/powerx-1.png';
 const Header = () => {
-  const style = {
-    backgroundImage: `url('${img}')`
-  }
+  
   return (
     <>
       <div
         className="grid grid-cols-2 w-3/4 m-auto "
-        styles={style}
       >
         <div>
           <h1 className="text-3xl">
