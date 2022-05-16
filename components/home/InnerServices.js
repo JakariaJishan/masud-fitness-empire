@@ -3,7 +3,6 @@ import React from "react";
 
 const InnerServices = (props) => {
   const { icon, body, title, id, image } = props.items;
-  console.log(id);
   const styles = {
     background: `url('${image}')`,
     backgroundPosition: "center",
