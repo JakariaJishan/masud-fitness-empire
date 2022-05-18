@@ -25,7 +25,7 @@ const ChooseUs = () => {
       </h1>
       <div className="grid grid-col lg:grid-cols-3 text-center w-3/4 mx-auto gap-5  ">
         {chooseusObj.map((items) => (
-          <InnerChooseUs  key={items.fire} items={items} />
+          <InnerChooseUs  key={items.title} items={items} />
         ))}
       </div>
     </div>
