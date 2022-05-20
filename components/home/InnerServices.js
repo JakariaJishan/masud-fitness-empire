@@ -20,7 +20,7 @@ const InnerServices = (props) => {
           <h1 className="font-extrabold text-3xl my-4 group-hover:text-[#FCD842]">{title}</h1>
           <p>{body}</p>
         </div>
-        <div className="h-full -z-50 w-full bg-[#0C0C15] group-hover:bg-[#111223] opacity-50 absolute top-0 left-0"></div>
+        <div className="h-full -z-50 w-full bg-[#14142d]   group-hover:bg-[#111223] opacity-50 absolute top-0 left-0"></div>
       </div>
     </>
   );

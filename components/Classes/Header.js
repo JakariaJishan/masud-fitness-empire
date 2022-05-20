@@ -9,10 +9,12 @@ const Header = () => {
   };
   return (
     <div>
-      <div style={styles} className="bg-top bg-cover">
-        <div className="h-96">
-          <h1 className="">our classes</h1>
+      <div style={styles} className="relative bg-top z-0 bg-cover">
+        <div className="h-screen">
+          <h1 className=" absolute top-1/2 left-1/2 z-50 -translate-x-1/2 -translate-y-1/2 text-white uppercase text-6xl font-bold">our classes</h1>
         </div>
+        
+        <div className="h-full  w-full z-10 bg-[#14142d] opacity-50 absolute top-0 left-0"></div>
       </div>
     </div>
   );

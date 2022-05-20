@@ -19,7 +19,7 @@ const InnerTraining = (props) => {
       />
       <div
         className=" absolute bottom-5 left-0 font-bold md:text-xl lg:text-xl bg-[#FCD842] text-black px-4 py-1 md:px-8 md:py-3 lg:py-5 lg:px-8 uppercase flex justify-between items-center"
-        style={styles}
+        
       >
         {fire}
         <svg
