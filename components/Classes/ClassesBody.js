@@ -11,6 +11,11 @@ const ClassesBody = () => {
           fire: "cardio training session",
           image: "/assets/training2.jpg",
         },
+        {
+          fire: "cardio training session",
+          image: "/assets/training2.jpg",
+        },
+        
       ];
       return (
         <>

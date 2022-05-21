@@ -1,14 +1,15 @@
-import React from 'react';
+import React from "react";
 
 const InnerClassesBody = (props) => {
-    const { fire, image } = props.items;
-    const styles = {
-      backgroundPosition: "center",
-      backgroundRepeat: "no-repeat",
-      backgroundSize: "cover",
-    };
-    return (
-      <div className="relative mx-auto text-center cursor-pointer">
+  const { fire, image } = props.items;
+  const styles = {
+    backgroundPosition: "center",
+    backgroundRepeat: "no-repeat",
+    backgroundSize: "cover",
+  };
+  return (
+    <div className=" mx-auto text-center  cursor-pointer">
+      <div className="">
         <img
           src={image}
           style={styles}
@@ -17,10 +18,7 @@ const InnerClassesBody = (props) => {
           width="500px"
           className=""
         />
-        <div
-          className=" absolute top-full  left-1/2  -translate-x-1/2 -translate-y-1/2  font-bold  text-black bg-[#FCD842] px-10 py-3 uppercase flex justify-between items-center"
-          
-        >
+        <div className=" font-bold  text-black bg-[#FCD842] px-10 py-3 uppercase flex justify-between  items-center">
           {fire}
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -38,7 +36,8 @@ const InnerClassesBody = (props) => {
           </svg>
         </div>
       </div>
-    );
-  };
+    </div>
+  );
+};
 
 export default InnerClassesBody;
