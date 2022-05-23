@@ -19,21 +19,47 @@ const Form = () => {
   return (
     <div className="w-3/4 mx-auto py-20">
       <div className="flex justify-between items-center text-center">
-          <div className="">
-            <p className="bg-[#FCD842] w-6   mx-auto rounded-full ">1</p>
-            <h1 className="font-bold">{formTitles[0]}</h1>
-          </div>
-          <div className="h-1 -mt-10 border-dotted border-1  w-full "></div>
-
-        <div>
-          <p>2</p>
-          <h1>{formTitles[1]}</h1>
+        <div className="">
+          <p className="bg-[#FCD842] w-6   mx-auto rounded-full text-white font-bold">1</p>
+          <h1 className="font-bold">{formTitles[0]}</h1>
         </div>
-        <div className="h-3  w-full bg-red-800"></div>
 
-        <div>
-          <p>3</p>
-          <h1>{formTitles[2]}</h1>
+        <div
+          className={` ${
+            load >= 1 ? "border-[#FCD842]" : "border-[#AFAFAF]"
+          }  w-full -mt-12 border-t-4  border-dotted `}
+        ></div>
+
+        <div className="">
+          <p
+            className={`${
+              load >= 1 ? "bg-[#FCD842]" : "bg-[#AFAFAF]"
+            } w-6 mx-auto rounded-full text-white font-bold`}
+          >
+            2
+          </p>
+          <h1 className={`${
+              load >= 1 ? "text-[#000]" : 'text-[#AFAFAF]'
+            } font-bold `}>{formTitles[1]}</h1>
+        </div>
+
+        <div
+          className={` ${
+            load >= 2 ? "border-[#FCD842]" : "border-[#AFAFAF]"
+          }  w-full -mt-12 border-t-4  border-dotted `}
+        ></div>
+
+        <div className="">
+          <p
+            className={`${
+              load >= 2 ? "bg-[#FCD842]" : "bg-[#AFAFAF]"
+            } w-6 mx-auto rounded-full text-white font-bold`}
+          >
+            3
+          </p>
+          <h1  className={`${
+              load >= 2 ? "text-[#000]" : 'text-[#AFAFAF]'
+            } font-bold `}>{formTitles[2]}</h1>
         </div>
       </div>
 
