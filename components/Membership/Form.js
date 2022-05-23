@@ -18,7 +18,7 @@ const Form = () => {
   const formTitles = ["Personal Details", "Bank Payment", "membership Created"];
   return (
     <div className="w-3/4 mx-auto py-20">
-      <div className="flex justify-between items-center text-center">
+      <div className="flex justify-between items-center text-center ">
         <div className="">
           <p className="bg-[#FCD842] w-6   mx-auto rounded-full text-white font-bold">
             1
