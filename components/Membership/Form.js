@@ -1,6 +1,7 @@
 import { useRouter } from "next/router";
 import React, { useState } from "react";
 import BankPayment from "./BankPayment";
+import MembershipCreated from "./MembershipCreated";
 import PersonalDetails from "./PersonalDetails";
 
 const Form = () => {
@@ -12,7 +13,7 @@ const Form = () => {
     } else if (load === 1) {
       return <BankPayment />;
     } else {
-      return "congo ";
+      return <MembershipCreated/>;
     }
   };
   const formTitles = ["Personal Details", "Bank Payment", "membership Created"];
@@ -82,18 +83,20 @@ const Form = () => {
         >
           prev
         </button>
+
+      
         <button
           className="btn btn-primary rounded-none my-5  "
           onClick={() => {
             if (load === formTitles.length - 1) {
               alert("FORM SUBMITTED");
-              // router.push('/')
+              router.push('/')
             } else {
               setLoad((curr) => curr + 1);
             }
           }}
         >
-          next
+          {load=== formTitles.length - 1? 'submit': 'next'}
         </button>
       </div>
     </div>
