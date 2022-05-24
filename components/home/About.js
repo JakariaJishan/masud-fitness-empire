@@ -2,7 +2,7 @@ import React from 'react';
 
 const About = () => {
     return (
-        <div className="grid grid-col lg:grid-cols-2 gap-20 w-3/4 mx-auto">
+        <div id="about" className="grid grid-col lg:grid-cols-2 gap-20 w-3/4 mx-auto">
             <div>
                 <img src="/assets/about.jpg" alt="about"   />
             </div>

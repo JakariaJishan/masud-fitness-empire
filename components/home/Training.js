@@ -14,7 +14,7 @@ const Training = () => {
   ];
   return (
     <>
-      <div className="text-center">
+      <div id="classes" className="text-center">
         <h1 className="text-3xl font-bold uppercase my-16">training <span className="text-[#FCD842]">programs</span> </h1>
         <div className="grid grid-col lg:grid-cols-2 text-center w-3/4 mx-auto gap-5 ">
           {trainingObj.map((items) => (

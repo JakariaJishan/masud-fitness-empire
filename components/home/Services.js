@@ -31,7 +31,7 @@ const Services = () => {
     },
   ];
   return (
-    <div className="grid grid-col lg:grid-cols-3 gap-5 text-center w-3/4 mx-auto my-32 ">
+    <div id="service" className="grid grid-col lg:grid-cols-3 gap-5 text-center w-3/4 mx-auto my-32 ">
       {demoObj.map((items) => <InnerServices key={items.title} items={items}/>)}
     </div>
   );

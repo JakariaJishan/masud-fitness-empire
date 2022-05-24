@@ -1,7 +1,7 @@
 import { faCheck } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Link from "next/link";
 import React from "react";
-
 const InnerPricing = (props) => {
   const { price, title, image } = props.items;
   const styles = {
@@ -44,9 +44,12 @@ const InnerPricing = (props) => {
             </div>
           </div>
         </div>
-        <button className="btn btn-primary rounded-none mt-10 font-bold">
-          purchase
-        </button>
+        <Link href="/membership">
+          <button className="btn btn-primary rounded-none mt-10 font-bold">
+            purchase
+          </button>
+        </Link>
+
         <div className="h-full -z-50 w-full bg-[#14142d]   group-hover:bg-[#111223] opacity-50 absolute top-0 left-0"></div>
       </div>
     </>

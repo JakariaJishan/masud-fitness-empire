@@ -14,7 +14,7 @@ const Navbar = () => {
           <Link href="/">
             <a className="inline-flex items-center p-2 mr-4 ">
               <span className="text-xl text-white font-bold uppercase tracking-wide">
-                masud fitness empire
+                <img src="/assets/masudbrave.png" alt="" />
               </span>
             </a>
           </Link>
@@ -65,32 +65,32 @@ const Navbar = () => {
                   Home
                 </a>
               </Link>
-              <Link href="/">
+              <Link href="#service">
                 <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-gray-600 hover:text-white">
                   Services
                 </a>
               </Link>
-              <Link href="/">
+              <Link href="#classes">
                 <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-gray-600 hover:text-white">
                   Our Classes
                 </a>
               </Link>
-              <Link href="/">
+              <Link href="#about">
                 <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-gray-600 hover:text-white">
                   About Us
                 </a>
               </Link>
-              <Link href="/">
+              <Link href="#blog">
                 <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-gray-600 hover:text-white">
-                  Block
+                  Blog
                 </a>
               </Link>
-              <Link href="/">
+              <Link href="/pricing">
                 <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-gray-600 hover:text-white">
                   Pricing
                 </a>
               </Link>
-              <Link href="/">
+              <Link href="#contact">
                 <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-gray-600 hover:text-white">
                   Contact Us
                 </a>
